@@ -1,0 +1,130 @@
+body {
+    padding: 1rem 5rem;
+    font-family: Poppins;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.header {
+    font-weight: 500;
+    color: #FFFF;
+    background-color: #4cc5f5;
+    border-radius: 7px;
+    padding: 4px 6px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.project-title {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.ten-one {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #FFFF;
+    background-color: #4cc5f5;
+    border-radius: 7px;
+    padding: 4px 6px;
+    margin: auto;
+    width: 45rem;
+}
+
+.ten-one-description {
+    padding: 0rem 3.5rem;
+    width: 80rem;
+    margin: auto;
+}
+
+img {
+    width: 80rem;
+    height: auto;
+}
+
+.interface-sketch {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    padding: 0 1rem;
+}
+
+.empathy-maps-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.empathy-map-block {
+    display: block;
+    text-align: center;
+    max-width: 62rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.empathy-map-container {
+    display: flex;
+    width: 60rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.empathy-map-desc {
+    padding: 0 1rem;
+}
+.empathy-map-quadrant {
+    background-color: #aae7ff;
+    margin: 1rem;
+    width: 26rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.empathy-map-list {
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.storyboard-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:790px){
+    .ten-one-description {
+        width: 50rem;
+    }
+    .empathy-map-container {
+        width: 100%;
+    }
+
+    .empathy-map-quadrant {
+        width: 40%;
+    }
+
+    .ten-one {
+        width: 25rem;
+    }
+    img {
+        width: 60rem;
+    }
+    
+}
